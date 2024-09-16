@@ -1,0 +1,95 @@
+
+* {
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+   background-color: black;
+}
+ .container {
+    font-family:"Roboto Slab",serif;/* Define a fonte do texto */
+    line-height: 1.6; /* Define o espaçamento vertical entre as linhas do texto */
+    background-repeat: no-repeat;/* Impede que a imagem de fundo se repita. */
+    background-size: cover;/* Faz com que a imagem de fundo cubra todo o elemento, ajustando-se proporcionalmente. */
+    background-position: center; /* Centraliza a imagem de fundo dentro do elemento. */
+    text-align: center;
+}
+header {
+    background-color: black; /* Define a cor de fundo do cabeçalho */
+    padding: 20px; /* Adiciona espaçamento interno ao redor do conteúdo do cabeçalho */
+    display: flex; /* Usa Flexbox para alinhar itens dentro do cabeçalho */
+    align-items: center; /* Alinha verticalmente os itens no centro */
+    height: 75px;
+}
+
+#logo img {
+    width: 250px; /* Define a largura do logo */
+    height: 100px;  /*Define a altura do logo */
+    margin : 0 100px 0 0 ;
+}
+
+#menu ul {
+    list-style: none; /* Remove os marcadores de lista (bolinhas) */
+    display: flex; /* Coloca os itens da lista em linha */
+    justify-content: space-around; /* Distribui os itens igualmente ao longo da linha */
+    margin: 0 15px;
+    padding: 0;
+    text-align: center;
+}
+
+
+#menu li {
+    margin: 0 80px ; /* Adiciona margem lateral (esquerda e direita) entre os itens do menu */
+}
+
+
+#menu li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color:#9cff1e ; /* Define a cor do texto dos links */
+    font-size: 20px; /* Define o tamanho da fonte dos links */
+    font-weight: bold; /* Define o texto em negrito */
+}
+
+
+#menu li span {
+    font-weight: bold; /* Deixa o texto do número em negrito */
+    color:white ; /* Define a cor do texto dos números */
+    margin-right: 5px; /* Adiciona espaço entre o número e o link */
+   
+}
+
+#menu li a:hover{
+    color:gray;
+    transition:1s;
+    text-decoration:line-through;
+}
+
+section {
+    text-align: center; /* Centraliza o texto dentro da seção */
+    margin: 50px 0; /* Adiciona uma margem acima e abaixo da seção (50px em cima e embaixo) */
+}
+
+
+section h2 {
+    font-size: 36px; /* Define o tamanho da fonte do título */
+    color: white; /* Define a cor do texto do título */
+    font-style: italic;/* Define o texto em italico */
+    font-weight: bold; /* Define o texto em negrito */
+}
+section h3 {
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    font: 22px;
+    font-family:"Roboto Slab",serif;
+}
+
+
+footer {
+    background-color: black; /* Define a cor de fundo do rodapé */
+    color: #fff; /* Define a cor do texto do rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 10px; /* Adiciona preenchimento interno ao redor do texto no rodapé */
+    margin-top: 300px; /* Adiciona espaço acima do rodapé */
+    height: 50px;
+    font-size:20px ;
+}
+
